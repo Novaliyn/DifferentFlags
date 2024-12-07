@@ -51,8 +51,8 @@ def update():
 #Setup
 flag=-1
 root = Tk()
-flags = ["Random","North Macedonia","Poland", "Secret", "Secret2","Exit"]
-X=len(flags-1)
+flags = ["Random","North Macedonia","Poland","Secret", "Secret2","Exit"]
+X=len(flags)-2
 
 #display buttons
 for i in range(len(flags)):
